@@ -17,6 +17,8 @@ headers = {
 response = requests.request("GET", url, headers=headers)
 
 print(response.text)
+
+
 #
 #
 # url = "https://us.api.blizzard.com/wow/guild/Barthilas/Vertigo"
