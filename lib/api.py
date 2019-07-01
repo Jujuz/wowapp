@@ -1,3 +1,4 @@
+import urllib3
 import requests
 import json
 
@@ -6,9 +7,13 @@ url = "https://us.api.blizzard.com/wow/achievement/2144"
 
 # url = "https://us.api.blizzard.com/wow/guild/Barthilas/Vertigo"
 
+
+tok = "USG3OvplmLL2cDfoE3uzLcApdZ4VSqDLVs"
+
+
 # Auth headers
 headers = {
-    'Authorization': "Bearer USI1ja1xGXzXbSmwcbjq7RoVj1xVTKtd15",
+    'Authorization': "Bearer USG3OvplmLL2cDfoE3uzLcApdZ4VSqDLVs",
     'User-Agent': "PostmanRuntime/7.13.0",
     'Accept': "*/*",
     'Cache-Control': "no-cache",
