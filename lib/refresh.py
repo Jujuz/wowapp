@@ -1,0 +1,2 @@
+curl -u db1633a0b8cf4f50af81e8aad85de1a9:MDPYUuGm46A09oC426vsBDWV0Wq8loo7 -d grant_type=client_credentials https://us.battle.net/oauth/token
+# curl --trace-ascii debugdump.txt http://www.example.com/
