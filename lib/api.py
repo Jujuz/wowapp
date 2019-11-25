@@ -6,9 +6,10 @@ import json
 class api():
 
 
-    def get_data(self, url):
+    def get_data(self, i):
         # Target url for required API GET request
-        self.url = "https://us.api.blizzard.com/wow/achievement/2144"
+        self.i = 2144
+        url = f"https://us.api.blizzard.com/wow/achievement/{i}"
 
         # url = "https://us.api.blizzard.com/wow/guild/Barthilas/Vertigo"
 
